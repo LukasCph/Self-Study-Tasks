@@ -1,18 +1,12 @@
-Self study tasks thursdays Modul 1
-
-Lukas Okholm
-cph-lo140@cphbusiness.dk
-
 // Task 2:
 
 String name="Lukas";
 int age=24;
-boolean mood=true;
+boolean happy=false;
 
 
 println("hello my name is "+name+ "\nI am "+age+" years old.");
-if (mood=true)
+if (happy==false)
 {
   println("I clap my hands.");
 }
-

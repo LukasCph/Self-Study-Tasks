@@ -31,7 +31,7 @@ void draw()
     fill(50);
     ellipse(75, 80, 105, 105);
 
-    if (x==2 )
+    if (x==2  )
     {
       fill(255, 255, 0);
       ellipse(75, 187, 105, 105);
@@ -75,9 +75,9 @@ void draw()
 //lights
 void keyPressed()
 {
-  if (key == CODED) 
+  if (keyPressed == true) 
   {
-    if (keyCode == UP) 
+    if (key=='l')
     {
       x++;
     }

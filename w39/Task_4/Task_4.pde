@@ -10,6 +10,7 @@ void setup(){
 void draw(){
   //divisibleByParameter(2);
   returnRandom();
+  recArr(4);
 }
 
 void divisibleByParameter(int a)
@@ -26,4 +27,14 @@ void divisibleByParameter(int a)
 
 int returnRandom(){
   return (int)random(arr[0], arr[arr.length-1]);
+}
+
+void recArr(int input)
+{
+  println(input);
+  input -= 1;
+  if (input > 0)
+  {
+    arr(input);
+  }
 }

@@ -1,0 +1,18 @@
+USE sakila;
+
+SELECT * FROM actor;
+-- SELECT * FROM actor WHERE last_name='Cage';
+-- SELECT * FROM actor WHERE first_name !='Nick' or 'Zero';
+-- SELECT * FROM actor WHERE first_name IN ('Nick', 'Johnny', 'James', 'Morgan', 'Whoopi');
+-- SELECT * FROM actor WHERE actor_id BETWEEN 50 AND 150;
+-- SELECT * FROM actor WHERE first_name LIKE 'C_%';
+-- SELECT * FROM actor ORDER BY actor.first_name asc;
+-- SELECT * FROM actor ORDER BY actor.last_name desc;
+-- SELECT COUNT(*) FROM actor;
+-- SELECT COUNT(*) FROM actor WHERE first_name = 'Nick';
+
+INSERT INTO actor (first_name, last_name) VALUES ('LUKAS','OKHOLM');
+INSERT INTO actor (first_name, last_name) VALUES ('BRUH','MOMENT');
+INSERT INTO actor (first_name, last_name) VALUES ('YOUR','MUM');
+INSERT INTO actor (first_name, last_name) VALUES ('EXCKS','DEEEE');
+INSERT INTO actor (first_name, last_name) VALUES ('MEME','LORD');
